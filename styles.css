@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:900px;
+	width:900px;
+    padding: 0;
+	border: none;
+}
+
+.row {
+    display: flex;
+}
+
+.cell{
+    flex: 1;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-game-btn {
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
